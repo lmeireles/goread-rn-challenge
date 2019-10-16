@@ -1,12 +1,11 @@
 # goread-rn-challenge
 Desafio para Dev React Native
 
-Para este desafio vamos criar um aplicativo de pesquisa de reposotórios do GitHub, usando a API aberta de busca:
+Para este desafio vamos criar um aplicativo de pesquisa de reposotórios do GitHub, usando a API aberta de busca.
 
-Documentação: [Link](https://developer.github.com/v3/search/#search-repositories)<br/>
+**Protótipo**: [Link](https://www.figma.com/proto/NA4Ead7eUjwt4OLJp3DPoD/Shary-Copy?node-id=0%3A2&scaling=scale-down)
+**Documentação**: [Link](https://developer.github.com/v3/search/#search-repositories)<br/>
 **Não é preciso se autenticar para realizar essa requisição**
-
-Protótipo: [Link](https://www.figma.com/proto/NA4Ead7eUjwt4OLJp3DPoD/Shary-Copy?node-id=0%3A2&scaling=scale-down)
 
 --------
 
