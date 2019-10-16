@@ -1,5 +1,4 @@
-# Abril ReactNative Challenge
-Desafio para Dev React Native
+# Desafio Abril para Dev ReactNative
 
 Para este desafio vamos criar um aplicativo de pesquisa de reposotórios do GitHub, usando a API aberta de busca.
 Crie um repositório no GitHub e responda o e-mail de test com um link para o mesmo.
