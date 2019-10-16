@@ -1,4 +1,4 @@
-# goread-rn-challenge
+# Abril ReactNative Challenge
 Desafio para Dev React Native
 
 Para este desafio vamos criar um aplicativo de pesquisa de reposotórios do GitHub, usando a API aberta de busca.
