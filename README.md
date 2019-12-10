@@ -13,7 +13,7 @@ Crie um repositório no GitHub e responda o e-mail de test com um link para o me
 
 ### Usabilidade
 
-- Seguir o layout de listagem apresentado no Protótipo.
+- Seguir da maneira mais fiel possível o layout de listagem apresentado no Protótipo.
 - Ao clicar no campo de busca o usuário pode digitar a vontade, realizar a requisição apenas quando o usuário pressionar o botão de enviar no teclado digital ou retirar o foco do campo de busca.
 - Ao clicar em qualquer um dos repositórios listados o aplicativo deve abrir um WebViewer exibindo a página do mesmo.
 - A listagem dese seguir o layout apresentando:
