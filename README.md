@@ -28,6 +28,9 @@ curl --location --request GET 'https://api.github.com/search/repositories?q=TERM
   
 ### Código
 
+O prjeto deve estar pronto para rodar.
+Tente utilizar a componentização da melhor forma possível
+
 **Obrigatória utilização:**
 - react-native (versão `0.67.4` ou superior)
 - redux (versão `4.1.0` ou superior)
@@ -41,7 +44,5 @@ curl --location --request GET 'https://api.github.com/search/repositories?q=TERM
 - Infinite scroll
 - Utilizar biblioteca Axios nas requests
 - Testes de ao menos 1 componente
-
-Tente organizar o código e quebrar as telas componentes.
 
 Boa Sorte!
