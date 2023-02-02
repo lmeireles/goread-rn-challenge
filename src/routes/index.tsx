@@ -14,7 +14,6 @@ export default function AppRoutes() {
         screenOptions={{
           contentStyle: {
             backgroundColor: '#FFF',
-            paddingTop: getStatusBarHeight(),
           },
         }}
       >
@@ -23,6 +22,9 @@ export default function AppRoutes() {
           component={ListScreen}
           options={{
             headerShown: false,
+            contentStyle: {
+              paddingTop: getStatusBarHeight(),
+            },
           }}
         />
         <Screen name='Details' component={DetailsScreen} />

@@ -1,7 +1,7 @@
 import styled from 'styled-components/native';
 import { AlteredText } from '../../screens/ListScreen/styles';
 
-export const ItemContainer = styled.View`
+export const ItemContainer = styled.TouchableOpacity`
   flex-direction: row;
   margin-bottom: 12px;
 `;

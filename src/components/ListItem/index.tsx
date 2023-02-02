@@ -1,3 +1,4 @@
+import { useAppNavigation } from '../../routes/types';
 import { RespositoryProps } from '../../services/api';
 import {
   Avatar,
@@ -16,8 +17,11 @@ export type ListItemProps = {
 export default function ListItem({
   data: { name, owner, stargazers_count },
 }: ListItemProps) {
+  const { push } = useAppNavigation();
   return (
-    <ItemContainer>
+    <ItemContainer
+      onPress={() => push('Details', { login: owner.login, name })}
+    >
       <Avatar source={{ uri: owner.avatar_url }} />
       <RepoDetailsContainer>
         <LeftPart>

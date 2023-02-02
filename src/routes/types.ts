@@ -3,7 +3,7 @@ import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 
 export type AppNavigationParams = {
   List: undefined;
-  Details: { id: string };
+  Details: { login: string; name: string };
 };
 
 export type AppNavigation = NativeStackNavigationProp<AppNavigationParams>;

@@ -36,7 +36,7 @@ export default function searchTerm() {
           <NoMoreResults>Não há mais resultados</NoMoreResults>
         ) : null
       }
-      onEndReachedThreshold={0.2}
+      onEndReachedThreshold={0.3}
       onEndReached={() => {
         isThereMore && !isLoading
           ? dispatch({
