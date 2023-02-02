@@ -2,7 +2,7 @@ import { AnyAction, Reducer } from 'redux';
 import { GET_REPOSITORIES, SET_REPOSITORIES } from './actions';
 import { AppStateProps } from './types';
 
-const initialState: AppStateProps = {
+export const initialState: AppStateProps = {
   repositories: [],
   page: 1,
   searchTerm: '',
@@ -19,7 +19,7 @@ export const appReducer: Reducer<AppStateProps, AnyAction> = (
       return {
         ...state,
         isLoading: true,
-        repositories: !action.payload.page ? [] : state.repositories,
+        repositories: action.payload.page === 1 ? [] : state.repositories,
         searchTerm: action.payload.searchTerm || state.searchTerm,
       };
     }
