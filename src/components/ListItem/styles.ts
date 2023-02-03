@@ -23,9 +23,12 @@ export const RepoDetailsContainer = styled.View`
 
 export const LeftPart = styled.View`
   justify-content: space-between;
+  flex: 1;
 `;
 
-export const RepoName = styled(AlteredText)`
+export const RepoName = styled(AlteredText).attrs({
+  numberOfLines: 1,
+})`
   font-size: 16px;
   line-height: 24px;
   font-family: 'bold';
