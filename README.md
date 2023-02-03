@@ -43,3 +43,12 @@ curl --location --request GET 'https://api.github.com/search/repositories?q=TERM
 - Testes de ao menos 1 componente
 
 Boa Sorte!
+
+--------
+
+### Amostra do teste
+
+
+https://user-images.githubusercontent.com/33128202/216482045-0e713153-0846-4bad-8baf-55a389fa6c8d.mp4
+
+
